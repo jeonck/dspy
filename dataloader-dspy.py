@@ -15,11 +15,6 @@ class DataConfig:
             'url': 'https://huggingface.co/dspy/cache/resolve/main/ragqa_arena_tech_corpus.jsonl',
             'local_path': 'data/qa_dataset.jsonl',
             'desc': '기술 관련 질문-답변 데이터셋'
-        },
-        'wiki': {
-            'url': 'https://huggingface.co/datasets/wiki_qa/resolve/main/data/train.jsonl',
-            'local_path': 'data/wiki_dataset.jsonl',
-            'desc': 'Wikipedia 질문-답변 데이터셋'
         }
     }
 
